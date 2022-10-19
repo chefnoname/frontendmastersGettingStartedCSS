@@ -1,0 +1,38 @@
+:root {
+  --veryLight: #c7ffed;
+  --light: #d8ffdb;
+  --green: #008f8c;
+  --dark: #015958;
+  --veryDark: #023535;
+  --orange: #ff5733;
+  --font-size: 1.3 rem;
+  --quickSand: 'Quicksand', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--veryDark);
+  font-family: var(--quickSand);
+  color: var(--light);
+  font-size: var(--font-size);
+}
+
+h2 {
+  font-weight: bolder;
+}
+
+span {
+  color: var(--orange);
+  font-weight: bold;
+}
